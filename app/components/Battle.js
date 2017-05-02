@@ -118,6 +118,10 @@ class Battle extends React.Component {
               </button>
             </PlayerPreview>}
 
+          <h1 id='vs'>
+            VS
+          </h1>
+
           {!playerTwoName &&
             <PlayerInput
               id='playerTwo'
